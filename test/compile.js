@@ -204,7 +204,8 @@ describe('Compile', function () {
         assert.deepEqual(data.fr, {
             'Hello!': 'Bonjour!',
             'This is a test': 'Ceci est un test',
-            'Bird': ['Oiseau', 'Oiseaux']
+            'Bird': ['Oiseau', 'Oiseaux'],
+            'This           is\n         a DB test': 'Ceci est un DB test',
         });
     });
 
@@ -218,7 +219,8 @@ describe('Compile', function () {
         assert.deepEqual(data.fr, {
             'Hello!': 'Bonjour!',
             'This           is\n         a test': 'Ceci est un test',
-            'Bird': ['Oiseau', 'Oiseaux']
+            'Bird': ['Oiseau', 'Oiseaux'],
+            'This           is\n         a DB test': 'Ceci est un DB test',
         });
     });
 

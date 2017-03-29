@@ -25,3 +25,8 @@ msgid "Bird"
 msgid_plural "Birds"
 msgstr[0] "Oiseau"
 msgstr[1] "Oiseaux"
+
+#: test/fixtures/db.html
+#: Text from DB
+msgid "This           is\n         a DB test"
+msgstr "Ceci est un DB test"
